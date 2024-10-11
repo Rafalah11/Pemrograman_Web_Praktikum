@@ -1,0 +1,21 @@
+.form {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  width: 500px;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.box {
+  border: none;
+  background-color: #dcdcdc;
+  width: 93%;
+  height: 6%;
+  margin-top: 10px;
+}

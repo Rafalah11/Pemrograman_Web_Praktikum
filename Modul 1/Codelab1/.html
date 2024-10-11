@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Mahasiswa</title>
+</head>
+<body>
+
+    <h2>Form Data Mahasiswa</h2>
+
+    <form>
+        <table>
+            <!-- Input Nama -->
+            <tr>
+                <td><label for="nama">Nama:</label></td>
+                <td><input type="text" id="nama" name="nama" required></td>
+            </tr>
+            
+            <!-- Input NIM -->
+            <tr>
+                <td><label for="nim">NIM:</label></td>
+                <td><input type="number" id="nim" name="nim" required></td>
+            </tr>
+            
+            <!-- Input Tanggal -->
+            <tr>
+                <td><label for="tanggal">Tanggal:</label></td>
+                <td><input type="date" id="tanggal" name="tanggal" required></td>
+            </tr>
+            
+            <!-- Input Alamat -->
+            <tr>
+                <td><label for="alamat">Alamat:</label></td>
+                <td><textarea id="alamat" name="alamat" cols="21" rows="5" required></textarea></td>
+            </tr>
+            
+            <!-- Button Simpan -->
+            <tr>
+                <!-- Tambahkan kolom kosong di sini untuk merapikan tombol -->
+                <td></td>
+                <td>
+                    <button type="submit">Simpan</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

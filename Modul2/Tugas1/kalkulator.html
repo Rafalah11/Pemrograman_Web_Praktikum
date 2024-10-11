@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="kalkulator.css" />
+  </head>
+  <body>
+    <div class="backround">
+      <div class="text">
+        <h2>Calculator</h2>
+        <p>Using html css & js</p>
+      </div>
+      <div class="kalkulator">
+        <form action="">
+          <div class="tampilan">
+            <input type="text" name="tampilan" />
+          </div>
+          <div>
+            <input
+              type="button"
+              value="AC"
+              onclick="tampilan.value = '' "
+              class="operator"
+            />
+            <input
+              type="button"
+              value="DE"
+              onclick="tampilan.value = tampilan.value.toString().slice(0,-1) "
+              class="operator"
+            />
+            <input
+              type="button"
+              value="."
+              onclick="tampilan.value += '.' "
+              class="operator"
+            />
+            <input
+              type="button"
+              value="/"
+              onclick="tampilan.value += '/' "
+              class="operator"
+            />
+          </div>
+          <div>
+            <input type="button" value="7" onclick="tampilan.value += '7' " />
+            <input type="button" value="8" onclick="tampilan.value += '8' " />
+            <input type="button" value="9" onclick="tampilan.value += '9' " />
+            <input
+              type="button"
+              value="*"
+              onclick="tampilan.value += '*' "
+              class="operator"
+            />
+          </div>
+          <div>
+            <input type="button" value="4" onclick="tampilan.value += '4' " />
+            <input type="button" value="5" onclick="tampilan.value += '5' " />
+            <input type="button" value="6" onclick="tampilan.value += '6' " />
+            <input
+              type="button"
+              value="-"
+              onclick="tampilan.value += '-' "
+              class="operator"
+            />
+          </div>
+          <div>
+            <input type="button" value="1" onclick="tampilan.value += '1' " />
+            <input type="button" value="2" onclick="tampilan.value += '2' " />
+            <input type="button" value="3" onclick="tampilan.value += '3' " />
+            <input
+              type="button"
+              value="+"
+              onclick="tampilan.value += '+' "
+              class="operator"
+            />
+          </div>
+          <div>
+            <input type="button" value="00" onclick="tampilan.value += '00' " />
+            <input type="button" value="0" onclick="tampilan.value += '0' " />
+            <input
+              type="button"
+              value="="
+              onclick="tampilan.value = eval(tampilan.value)"
+              class="samadengan"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1000') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 1.28px;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.80px;
+}
+
+.footer {
+    background: white;
+    border-top: 1px solid white;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    width: 104px;
+    height: 41px;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-sign-up, .btn-log-in {
+    margin-left: 10px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-sign-up {
+    padding: 16px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-log-in {
+    padding: 16px;
+    background: #294DFA;
+    border: none;
+    color: white;
+}
+
+.service-item, .about-item, .follow-item {
+    margin-top: 30px;
+}
+
+.service-item h3, .about-item h3, .follow-item h3 {
+    color: #D3D3D3;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+}
+
+.service-item ul, .about-item ul, .follow-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-item li, .about-item li, .follow-item li {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 48px;
+}

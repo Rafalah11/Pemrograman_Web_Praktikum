@@ -1,0 +1,181 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.btn-sign {
+  background-color: whitesmoke;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border-color: black;
+  margin-right: 10px;
+}
+
+.btn-log {
+  color: white;
+  background-color: #add8e6;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+/* GAMBAR DAN TEKS */
+
+.gambar-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.teks1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+}
+
+.teks1 h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.teks1 p {
+  font-size: 25px;
+  margin: 0;
+}
+
+/* FOOTER */
+
+.service-item,
+.about-item,
+.follow-item {
+  margin-top: 30px;
+}
+
+.service-item h3,
+.about-item h3,
+.follow-item h3 {
+  color: #d3d3d3;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+}
+
+.service-item ul,
+.about-item ul,
+.follow-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-item li,
+.about-item li,
+.follow-item li {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  margin-bottom: 13px;
+}
+
+.follow-item a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  margin-bottom: 6px;
+}
+
+.footer-wrapper {
+  background-color: white;
+  min-height: 100%;
+}
+
+.footer-copyright {
+  background-color: white;
+  min-height: 100%;
+  margin-left: 80px;
+}
+
+.footer-wrapper img {
+  width: 180px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .btn-sign {
+    background-color: whitesmoke;
+    width: 100%;
+    border-color: black;
+    margin-bottom: 10px;
+  }
+
+  .btn-log {
+    color: white;
+    background-color: #add8e6;
+    width: 100%;
+  }
+
+  .teks1 h1 {
+    font-size: 12px !important;
+  }
+
+  .teks1 p {
+    font-size: 8px !important;
+  }
+
+  .footer-wrapper img {
+    margin-top: 0;
+  }
+
+  .footer-copyright {
+    background-color: white;
+    font-size: 14.5px !important;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .service-item,
+  .about-item,
+  .follow-item {
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 989px) {
+  .btn-sign {
+    background-color: whitesmoke;
+    width: 100%;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn-log {
+    color: white;
+    background-color: #add8e6;
+    width: 100%;
+  }
+  .teks1 h1 {
+    font-size: 33px;
+  }
+
+  .teks1 p {
+    font-size: 20px;
+  }
+  .footer-copyright {
+    background-color: white;
+    font-size: 14.5px;
+    margin: 0;
+    margin-left: 10px;
+  }
+}
